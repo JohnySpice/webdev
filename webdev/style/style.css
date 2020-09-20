@@ -3,52 +3,133 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
 }
+.hidden {
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  position: absolute;
+}
 header {
   width: 100%;
   height: 95px;
-  background-color: black;
+  /* background-color: black; */
+  position: absolute;
 
 }
-.main-navigation {
+.main-navigation,
+.main-navigation ul {
   width: auto;
   height: 100%;
 }
 .main-navigation ul {
-  width: auto;
-  height: 100%;
+  margin-left: 502px;
   font-size: 14px;
   font-weight: 400;
   line-height: 19.6px;
-  margin-left: 502px;
   color: #ffffff;
 }
 
-
-.main-navigation ul li {
+.main-navigation ul li:not(.logo) {
   display: inline-block;
-  margin-top: 40px;
+  width: auto;
+  margin-top: 39px;
+  opacity: 0.8;
 }
 
 .main-navigation ul li:nth-child(2),
- .main-navigation ul li:nth-child(5){
+.main-navigation ul li:nth-child(5){
   margin-left: 82px;
 }
 .main-navigation ul li:nth-child(4) {
   margin-left: 92px;
 }
 
-
-.main-navigation ul li:not(.logo):hover {
+.main-navigation_list__firstelement {
+  opacity: 1;
   border-bottom: solid #ffffff 1px;
+  font-weight: 500;
+}
+.main-navigation ul li:not(.logo):hover {
+  opacity: 1;
+  border-bottom: solid #ffffff 1px;
+  font-weight: 500;
   cursor: pointer;
 }
-
-
+.main-navigation ul li a {
+  color: #ffffff;
+}
 .logo {
   margin-left: 102px;
+  display: inline-block;
 }
 .logo img {
   position: relative;
   bottom: 15px;
   left: -4px;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+}
+
+.first-section {
+  width: 100%;
+  height: 744px;
+  background-image: url("../assets/bg-image.png");
+  background-size: cover;
+  color: #ffffff;
+  padding-top: 235PX;
+}
+.first-section_text h2 {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4.5px;
+  margin-left: 5px;
+}
+.first-section_text p {
+  width: 504px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 27px;
+  line-height: 25.2px;
+}
+
+.first-section_button {
+  margin-top: 45px;
+  height: 46px;
+  text-align: center;
+}
+.first-section_button a {
+  padding: 14px 47px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #00AFDB;
+}
+.first-section_button a:hover {
+  background-color: #009CC2;
+}
+
+.first-section_social {
+  text-align: center;
+  margin: 167px auto;
+  width: 170px;
+}
+.first-section_social ul {
+  display: flex;
+  justify-content: space-between;
+}
+.first-section_social ul li {
+  display: inline-block;
+}
+.first-section_social ul li:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
