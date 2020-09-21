@@ -1,5 +1,6 @@
 body {
   width: 1600px;
+  height: 100%;
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
 }
@@ -369,4 +370,49 @@ header {
 }
 .store-button:hover {
   background-color: #009CC2;
+}
+
+footer {
+  width: 1600px;
+  height: 185px;
+  position: absolute;
+  top: 3920px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000000;
+}
+.footer-navigation {
+  margin-right: 60px;
+  margin-bottom: 18px;
+}
+.footer-navigation li  {
+  display: inline-block;
+  margin-right: 15px;
+}
+.footer-navigation li a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  color: #ffffff;
+}
+.footer-navigation li a:hover {
+  opacity: 0.8;
+  border-bottom: 1px solid #ffffff;
+}
+footer img {
+  margin-right: 25px;
+  margin-bottom: 15px;
+}
+footer p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  color: #818181;
+  margin-bottom: 15px;
+  margin-left: 110px;
+}
+.border {
+  height: 8px;
+  border-left: 1px solid #4E4E4E;
 }
