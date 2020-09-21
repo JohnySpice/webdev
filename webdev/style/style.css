@@ -317,3 +317,56 @@ header {
   background-color: #00AFDB;
   color: #ffffff;
 }
+.fifth-section form button:hover {
+  background-color: #009CC2;
+}
+
+.sixth-section {
+  width: 100%;
+  height: 464px;
+}
+.sixth-section_text {
+  margin-top: 120px;
+  margin-left: 20px;
+}
+.sixth-section_text h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.13px;
+  text-transform: uppercase;
+  margin-left: 652px;
+}
+.sixth-section_text p {
+  text-align: center;
+  width: 480px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  color: #4E4E4E;
+  margin-left: 540px;
+  margin-top: 20px;
+}
+.sixth-section_buttons {
+  display: flex;
+  margin-left: 599px;
+  margin-top: 32px;
+}
+.sixth-section_buttons button:nth-child(3) {
+  margin-left: 31px;
+}
+.store-button {
+  width: 127px;
+  height: 46px;
+  background-color: #00AFDB;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  text-transform: uppercase;
+  color: #ffffff
+}
+.apple-button, .android-button {
+  width: 59px;
+}
+.store-button:hover {
+  background-color: #009CC2;
+}
