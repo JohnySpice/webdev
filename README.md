@@ -1,3 +1,3 @@
-# webdev
-Pixel perfect markup.
-Deployment: https://JohnySpice.github.io/webdev/
+# webdev  
+Pixel perfect markup.  
+Deployment: https://johnyspice.github.io/webdev/webdev/
